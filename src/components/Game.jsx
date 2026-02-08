@@ -54,7 +54,7 @@ const Game = () => {
       toast.custom(
         <div className='backdrop-blur-md border flex flex-col items-center border-white/30 rounded-lg p-6 w-[45vw] shadow-lg bg-white/30 text-white'>
           <img src="/loving_bubu.gif" className='w-32 h-32 mb-4'/>
-          <h2 className='text-xl font-bold'>Doesn't Matter my baby always WINS😘🥳</h2>
+          <h2 className='text-xl text-pink-300 font-bold'>Doesn't Matter my baby always WINS😘🥳</h2>
         </div>
       );
     }
@@ -62,7 +62,7 @@ const Game = () => {
       toast.custom(
         <div className='backdrop-blur-md border flex flex-col items-center border-white/30 rounded-lg p-6 w-[45vw] shadow-lg bg-white/30 text-white'>
           <img src="/loving_bubu.gif" className='w-32 h-32 mb-4'/>
-          <h2 className='text-xl font-bold'>YAYY KHUSHU JEET GYI😘🥳</h2>
+          <h2 className='text-xl text-pink-300 font-bold'>YAYY KHUSHU JEET GYI😘🥳</h2>
         </div>
       );
     }
