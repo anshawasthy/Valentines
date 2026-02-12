@@ -31,7 +31,7 @@ const ChoiceGrid = ({ setDarkTheme }) => {
 
   return (<>
   <div className="relative inset-0 flex items-center top-[20vw] justify-center z-10">
-    <h1 className={`text-white bg-pink-400 text-2xl font-bold ${startAnim ? "zoom-fade" : ""}`}>
+    <h1 className={`text-white bg-pink-400 p-15 mask-fade-all text-2xl font-bold ${startAnim ? "zoom-fade" : ""}`}>
         Choose, Which Bubu is not you?
     </h1>
   </div>

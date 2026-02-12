@@ -1,10 +1,33 @@
 @import "tailwindcss";
 
-/* * {
-   overflow: hidden;
+* {
+   overflow-y: hidden;
     
   
-} */
+}
+
+
+.mask-fade-all {
+  -webkit-mask-image: 
+    linear-gradient(to right, transparent, black 10%, black 90%, transparent),
+    linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+
+  mask-image: 
+    linear-gradient(to right, transparent, black 10%, black 90%, transparent),
+    linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
 
 .darkBody {
   background: #2a2a2a;
@@ -49,7 +72,7 @@
 
 
 body {
-  background: rgb(241, 201, 201);
+  background: radial-gradient(circle, #e57cb3 50%, transparent 100%);
   font-family: 'Chango';
   min-height: 2000px;
 }

@@ -5,7 +5,7 @@ import Letter from "../components/Letter.jsx";
 import ChoiceGrid from "../components/ChoiceGrid.jsx";
 import ChoiceGrid2 from "../components/ChoiceGrid2.jsx";
 import Game from "../components/Game.jsx"
-
+import VidGrid from "../components/VidGrid.jsx";
 
 const Home = () => {
     const [darkTheme, setDarkTheme] = useState(false);
@@ -22,6 +22,7 @@ const Home = () => {
       <ChoiceGrid setDarkTheme={setDarkTheme}/>
       <ChoiceGrid2 setDarkTheme={setDarkTheme} />
       <Game />
+      <VidGrid />
     </div>
   )
 }

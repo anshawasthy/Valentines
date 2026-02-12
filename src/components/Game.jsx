@@ -57,6 +57,9 @@ const Game = () => {
           <h2 className='text-xl text-pink-300 font-bold'>Doesn't Matter my baby always WINS😘🥳</h2>
         </div>
       );
+      setTimeout(() => {
+          window.location.href = "#VidGrid"
+        }, 2000);
     }
     else if (newUser >= 3) {
       toast.custom(
@@ -65,6 +68,9 @@ const Game = () => {
           <h2 className='text-xl text-pink-300 font-bold'>YAYY KHUSHU JEET GYI😘🥳</h2>
         </div>
       );
+      setTimeout(() => {
+          window.location.href = "#VidGrid"
+        }, 2000);
     }
 };
 
@@ -73,7 +79,7 @@ const Game = () => {
 
   return (<>
   <div className="relative inset-0 flex items-center top-[20vw] justify-center z-10">
-    <h1 className={`text-white bg-pink-400 text-2xl font-bold ${startAnim ? "zoom-fade" : ""}`}>
+    <h1 className={`text-white bg-pink-400 p-15 mask-fade-all text-2xl font-bold ${startAnim ? "zoom-fade" : ""}`}>
         So lets, play a small game now Baby!
     </h1>
   

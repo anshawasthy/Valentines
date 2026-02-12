@@ -32,7 +32,7 @@ const ChoiceGrid2 = ({ setDarkTheme }) => {
 
   return (<>
   <div className="relative inset-0 flex items-center top-[20vw] justify-center z-10">
-    <h1 className={`text-white bg-gray-600 text-2xl font-bold ${startAnim ? "zoom-fade" : ""}`}>
+    <h1 className={`text-white mask-fade-all p-15 bg-gray-600 text-2xl font-bold ${startAnim ? "zoom-fade" : ""}`}>
         Choose, Which Dudu I am?
     </h1>
   </div>

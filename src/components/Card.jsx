@@ -12,7 +12,6 @@ const Card = () => {
             </div>);
     }
 
-
     const buttonYes = () => {
 
       setTimeout(() => {
